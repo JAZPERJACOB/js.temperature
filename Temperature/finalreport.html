@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="convertTemperatureRange">
+        <p>Temperature Converter</p>
+        <label for="startTemp">Starting Temperature:</label>
+        <input type="number" id="startTemp" placeholder="Enter starting temperature">
+
+        <label for="endTemperature">Ending Temperature:</label>
+        <input type="number" id="endTemperature" placeholder="Enter ending temperature">
+    
+        <label for="tempScale">Select Scale</label>
+        <select id="tempScale">
+            <option value="C">Celcius</option>
+            <option value="F">Fahrenheit</option>
+        </select>
+    
+        <button onclick="convertTemperatureRange()">Convert</button>
+    
+        <div id="result"></div>
+    
+        <script src="./scripts/finalreport.js"></script>
+    </div>
+</body>
+</html>
